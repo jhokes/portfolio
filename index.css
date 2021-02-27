@@ -1,0 +1,130 @@
+body {
+  background-color: #d12229;
+  font-family: 'Gruppo', cursive;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #2A2929;
+}
+
+.container img {
+  border-radius: 7px;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 124px;
+  color: #000000;
+  text-shadow : -1px -1px 0 #d12229, 1px -1px 0 #d12229, -1px 1px 0 #d12229, 1px 1px 0 #d12229;
+}
+
+.bottom-right {
+  position: absolute; 
+  bottom: 8px;
+  right: 16px;
+  font-size: 40px;
+  color: #000000;
+  font-weight:900;
+  text-shadow : -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; 
+}
+
+ul {
+  background-color: #FCFAFA;
+  /* margin: auto; */
+  border-radius: 7px;
+  padding-right: 25px;
+  padding-bottom: 13px;
+  padding-top: 18px;
+}
+
+ul li {
+  font-size: 34px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.slide {width:60%; height:300px;padding-bottom:10%; overflow:hidden; position:relative;}
+  .slide img{ position:absolute; animation:slide 88s infinite; opacity:0; width:100%; height: auto;}
+  .slide{ margin-left:20%;
+  }
+  /* @keyframes slide {25%{opacity:1;} 26%{opacity:0;}} */
+  @keyframes slide {4% {opacity:1;} 6% {opacity:0;}}
+  .slide img:nth-child(22){animation-delay:0s;}
+  .slide img:nth-child(21){animation-delay:4s;}
+  .slide img:nth-child(20){animation-delay:8s;}
+  .slide img:nth-child(19){animation-delay:12s;}
+  .slide img:nth-child(18){animation-delay:16s;}
+  .slide img:nth-child(17){animation-delay:20s;}
+  .slide img:nth-child(16){animation-delay:24s;}
+  .slide img:nth-child(15){animation-delay:28s;}
+  .slide img:nth-child(14){animation-delay:32s;}
+  .slide img:nth-child(13){animation-delay:36s;}
+  .slide img:nth-child(12){animation-delay:40s;}
+  .slide img:nth-child(11){animation-delay:44s;}
+  .slide img:nth-child(10){animation-delay:48s;}
+  .slide img:nth-child(9){animation-delay:52;}
+  .slide img:nth-child(8){animation-delay:56s;}
+  .slide img:nth-child(7){animation-delay:60s;}
+  .slide img:nth-child(6){animation-delay:64s;}
+  .slide img:nth-child(5){animation-delay:68s;}
+  .slide img:nth-child(4){animation-delay:72s;}
+  .slide img:nth-child(3){animation-delay:76s;}
+  .slide img:nth-child(2){animation-delay:80s;}
+  .slide img:nth-child(1){animation-delay:84s;}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.social-menu ul {
+  display: flex;
+  justify-content:space-evenly; 
+  list-style: none;
+  margin: 0;  
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.social-menu ul li .fab {
+  font-size: 80px;
+  line-height: 90px;
+  color:#CFCDCC;  
+}  
+
+.social-menu ul li .fas {
+  font-size: 80px;
+  line-height: 90px;
+  color:#CFCDCC; 
+}
+
+.social-menu {
+  width: 97%;
+  height: 10px;
+  margin: 20px 0;    
+}
+
+.social-menu:after {
+  font-size: 23px;
+  content: "\00a9  2021 WhoIsJalaHokes";
+  color:#000000;
+}   
+
+
+@media screen and (max-width: 800px) {
+  div.centered {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  div.bottom-right {
+    font-size: 30px;
+  }
+}
